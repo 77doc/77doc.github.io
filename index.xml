@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>企企生存手册</title>
-    <link>https://czp-qcc.github.io/77doc.github.io/</link>
+    <link>https://77doc.github.io/</link>
     <description>Recent content on 企企生存手册</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 28 Jul 2021 09:58:15 +0800</lastBuildDate><atom:link href="https://czp-qcc.github.io/77doc.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jul 2021 09:58:15 +0800</lastBuildDate><atom:link href="https://77doc.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hello</title>
-      <link>https://czp-qcc.github.io/77doc.github.io/post/first/</link>
+      <link>https://77doc.github.io/post/first/</link>
       <pubDate>Wed, 28 Jul 2021 09:58:15 +0800</pubDate>
       
-      <guid>https://czp-qcc.github.io/77doc.github.io/post/first/</guid>
+      <guid>https://77doc.github.io/post/first/</guid>
       <description>我的第一个hello wor111dfsfsadf </description>
     </item>
     
