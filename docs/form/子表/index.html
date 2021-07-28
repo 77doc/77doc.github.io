@@ -1306,7 +1306,14 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><p>formPresenter一般都是在路由中初始化的。业务presenter（都是继承了 EasyBizFormPresenter）的构造器中会调用super，super中会调createItemsPresenters将子表也new出来，让子表保存到 itemsPresenters 中。可以在业务presenter中遍历 itemsPresenters 通过 itemsPresenter 的 logicPath （子表的path）拿到某个子表对象。</p>
+<article class="markdown">
+  
+  
+  
+  
+  <h1>子表</h1>
+  <p>作者：</p>
+  <hr/><p>formPresenter一般都是在路由中初始化的。业务presenter（都是继承了 EasyBizFormPresenter）的构造器中会调用super，super中会调createItemsPresenters将子表也new出来，让子表保存到 itemsPresenters 中。可以在业务presenter中遍历 itemsPresenters 通过 itemsPresenter 的 logicPath （子表的path）拿到某个子表对象。</p>
 </article>
  
       

@@ -1312,7 +1312,14 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><p>表单中配置masterRender可以实现表头字段的自定义渲染，但是外键字段不能通过masterRender处理。</p>
+<article class="markdown">
+  
+  
+  
+  
+  <h1>表头字段自定义渲染</h1>
+  <p>作者：</p>
+  <hr/><p>表单中配置masterRender可以实现表头字段的自定义渲染，但是外键字段不能通过masterRender处理。</p>
 <p>在MasterRendererController.tsx中有一段代码</p>
 <pre><code>const after: IMasterFieldRender[] = [new LinkRender(), new ForeignKeyLinkRender(), new CommonFieldRender()];
 </code></pre><p>外键字段会走到ForeignKeyLinkRender组件，而masterRender只在CommonFieldRender中才有使用。</p>
